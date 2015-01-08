@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "JEUtilityKit"
   s.version      = "0.0.1"
-  s.summary      = "A short description of JEUtilityKit."
+  s.summary      = "iOS常用的方法封装 			—>尹现伟."
 
   s.description  = <<-DESC
                    A longer description of JEUtilityKit in Markdown format.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/JEUtilityKit.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/yinxianwei/JEUtilityKitDemo.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "JEUtilityKitDemo/JEUtilityKit/*"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "JEUtilityKit/*"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
