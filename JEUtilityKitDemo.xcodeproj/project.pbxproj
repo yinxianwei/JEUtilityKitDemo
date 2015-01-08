@@ -38,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		D0B1EA8E1A5E280D00B24C59 /* JEUtilityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEUtilityKit.h; sourceTree = "<group>"; };
-		D0B1EA8F1A5E280D00B24C59 /* JEUtilityKit.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEUtilityKit.pch; sourceTree = "<group>"; };
 		D0B1EA901A5E280D00B24C59 /* NSArray+UtilityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+UtilityKit.h"; sourceTree = "<group>"; };
 		D0B1EA911A5E280D00B24C59 /* NSArray+UtilityKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+UtilityKit.m"; sourceTree = "<group>"; };
 		D0B1EA921A5E280D00B24C59 /* NSDate+UtilityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+UtilityKit.h"; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		D0B1EAA11A5E280D00B24C59 /* UITableView+UtilityKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UtilityKit.m"; sourceTree = "<group>"; };
 		D0B1EAA21A5E280D00B24C59 /* UIViewController+UtilityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UtilityKit.h"; sourceTree = "<group>"; };
 		D0B1EAA31A5E280D00B24C59 /* UIViewController+UtilityKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UtilityKit.m"; sourceTree = "<group>"; };
+		D0B1EB911A5E7E8400B24C59 /* JEUtilityKit+MACRO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JEUtilityKit+MACRO.h"; sourceTree = "<group>"; };
 		D0B4A69F1A5D39A20096F7FF /* JEUtilityKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JEUtilityKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B4A6A31A5D39A20096F7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0B4A6A41A5D39A20096F7FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				D0B1EA8E1A5E280D00B24C59 /* JEUtilityKit.h */,
-				D0B1EA8F1A5E280D00B24C59 /* JEUtilityKit.pch */,
+				D0B1EB911A5E7E8400B24C59 /* JEUtilityKit+MACRO.h */,
 				D0B1EA901A5E280D00B24C59 /* NSArray+UtilityKit.h */,
 				D0B1EA911A5E280D00B24C59 /* NSArray+UtilityKit.m */,
 				D0B1EA921A5E280D00B24C59 /* NSDate+UtilityKit.h */,

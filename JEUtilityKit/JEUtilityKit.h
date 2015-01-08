@@ -10,7 +10,7 @@
 #ifndef JEUtilityKitDemo_JEUtilityKit_h
 #define JEUtilityKitDemo_JEUtilityKit_h
 
-#import "JEUtilityKit.pch"
+#import "JEUtilityKit+MACRO.h"
 #import "NSString+UtilityKit.h"
 #import "NSDate+UtilityKit.h"
 #import "UITableView+UtilityKit.h"
