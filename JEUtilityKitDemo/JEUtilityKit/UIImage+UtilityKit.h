@@ -11,12 +11,14 @@
 
 @interface UIImage(Utility)
 /*!
- *  获取网络图片大小
+ *  获取网络图片Size
  *
  *  @param imageURL 图片地址  string|url
  *
- *  @return
  */
 +(CGSize)downloadImageSizeWithURL:(id)imageURL;
+
+
+
 
 @end

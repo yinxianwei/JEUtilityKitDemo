@@ -12,6 +12,13 @@
 @interface NSString(Utility)
 
 /**
+ *  十六进制颜色转换
+ *
+ *  @return 颜色
+ */
+-(UIColor *)Color;
+
+/**
  *  去除指定的字符
  *
  *  @param aString 要删除的字符

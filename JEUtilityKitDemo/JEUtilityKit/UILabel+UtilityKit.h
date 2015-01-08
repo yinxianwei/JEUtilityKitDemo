@@ -16,7 +16,6 @@
  *
  *  @param frame frame
  *
- *  @return UILabel
  */
 + (instancetype)labelWithFrame:(CGRect)frame;
 @end

@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "JEUtilityKit.h"
 
 @interface AppDelegate ()
 

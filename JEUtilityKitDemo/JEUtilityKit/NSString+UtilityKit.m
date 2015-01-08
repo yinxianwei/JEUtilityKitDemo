@@ -11,6 +11,15 @@
 
 @implementation NSString(Utility)
 
+-(UIColor *)Color{
+    NSScanner *scanner;
+    unsigned int rgbval;
+    
+    scanner = [NSScanner scannerWithString:self];
+    [scanner setCharactersToBeSkipped:[NSCharacterSet characterSetWithCharactersInString:@"#"]];
+    [scanner scanHexInt: &rgbval];
+    return UIColorFromRGB(rgbval);
+}
 
 -(NSString *)removeString:(NSString *)aString{
     return [self stringByReplacingOccurrencesOfString:aString withString:@""];
@@ -29,18 +38,13 @@
         return CGSizeMake(0, 0);
     }
     size.height = size.height == 0 ?1000 : size.height;
-    return [self sizeWithFont:font constrainedToSize:size lineBreakMode:model];
-}
+    
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];
+    paragraphStyle.lineBreakMode = model;
 
--(CGSize)stringSizeWithFont:(UIFont *)font size:(CGSize)size{
-    if (self.length == 0) {
-        return ccs(0, 0);
-    }
-    return [self stringSizeWithFont:font size:size breakmode:NSLineBreakByCharWrapping];
     if (!isIOS7) {
+        
         NSMutableAttributedString *attributedStr = [[NSMutableAttributedString alloc] initWithString:self attributes:@{NSFontAttributeName:font}];
-        NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
-        [paragraphStyle setLineSpacing:2];
         
         [attributedStr addAttribute:NSParagraphStyleAttributeName
                               value:paragraphStyle
@@ -50,10 +54,17 @@
                                                       context:nil].size;
         return textSize;
     }
-    
-    NSDictionary *attribute = @{NSFontAttributeName:font};
-    CGSize strSize = [self boundingRectWithSize:size options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:attribute context:nil].size;
+
+    NSDictionary *attribute = @{NSFontAttributeName:font,NSParagraphStyleAttributeName:paragraphStyle};
+    CGSize strSize = [self boundingRectWithSize:size options: NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingTruncatesLastVisibleLine  attributes:attribute context:nil].size;
     return strSize;
+}
+
+-(CGSize)stringSizeWithFont:(UIFont *)font size:(CGSize)size{
+    if (self.length == 0) {
+        return ccs(0, 0);
+    }
+    return [self stringSizeWithFont:font size:size breakmode:NSLineBreakByWordWrapping];
 }
 
 

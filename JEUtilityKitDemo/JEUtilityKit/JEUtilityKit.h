@@ -19,5 +19,6 @@
 #import "UIAlertView+UtilityKit.h"
 #import "UIImage+UtilityKit.h"
 #import "UIViewController+UtilityKit.h"
+#import "UIColor+UtilityKit.h"
 
 #endif

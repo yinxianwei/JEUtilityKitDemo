@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JEUtilityKit.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+//    UILabel *label = [UILabel labelWithFrame:ccr(100, 100, 200, 300)];
+//    label.numberOfLines = 0;
+//    [self.view addSubview:label];
+//    
+//    label.text = @"3294239iJ[;';21i421ieddnxzkj你的撒可减肥你卡死你放技能是丹凤街";
+//    
+//    CGSize size = [label.text stringSizeWithFont:label.font size:ccs(VIEW_W(label), 0)];
+////    label.lineBreakMode = NSLineBreakByCharWrapping;
+//    label.bounds = ccr(0, 0, 200, size.height);
+//    
+//    label.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {

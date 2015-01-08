@@ -13,8 +13,6 @@
  *  时间大小判断
  *
  *  @param date 判断 self 是否大于 date
- *
- *  @return BOOL
  */
 - (BOOL)isBiggerDate:(NSDate *)date;
 

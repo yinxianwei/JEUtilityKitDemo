@@ -13,7 +13,6 @@
 /**
  *  获取当前屏幕大小
  *
- *  @return  屏幕大小
  */
 -(CGSize)screenSize;
 
