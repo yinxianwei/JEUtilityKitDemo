@@ -7,7 +7,7 @@
 //
 
 #import "NSString+UtilityKit.h"
-#import "JEUtilityKit.pch"
+#import "JEUtilityKit+MACRO.h"
 
 @implementation NSString(Utility)
 
