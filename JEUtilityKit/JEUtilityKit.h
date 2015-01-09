@@ -21,5 +21,6 @@
 #import "UIViewController+UtilityKit.h"
 #import "UIColor+UtilityKit.h"
 #import "NSDictionary+UtilityKit.h"
+#import "UIView+UtilityKit.h"
 
 #endif
