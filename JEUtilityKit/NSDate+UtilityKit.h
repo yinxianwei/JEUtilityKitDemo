@@ -3,7 +3,6 @@
 //  JEUtilityKitDemo
 //
 //  Created by 尹现伟 on 15-1-7.
-//  Copyright (c) 2015年 DNE Technology Co.,Ltd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -22,5 +21,12 @@
  *  @return 今天:(19:00)  昨天:(昨天:19:00) 本周:(星期一) 其它:(2014-08-01 19:00)
  */
 - (NSString *)showTime;
+
+/**
+ *  date转string
+ *
+ *  @param format 时间格式化
+ */
+- (NSString *)stringFormat:(NSString *)format;
 
 @end

@@ -3,7 +3,6 @@
 //  JEUtilityKitDemo
 //
 //  Created by 尹现伟 on 15-1-7.
-//  Copyright (c) 2015年 DNE Technology Co.,Ltd. All rights reserved.
 //
 
 #import "NSString+UtilityKit.h"
@@ -154,4 +153,18 @@
     }
     return (strlength+1)/2;
 }
+
+- (NSDate *)dateFormat:(NSString *)format{
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    NSTimeZone *timeZone = [NSTimeZone localTimeZone];
+    
+    [formatter setTimeZone:timeZone];
+    [formatter setDateFormat : format];
+    
+    NSDate *dateTime = [formatter dateFromString:self];
+
+    return dateTime;
+}
+
 @end

@@ -3,7 +3,6 @@
 //  JEUtilityKitDemo
 //
 //  Created by 尹现伟 on 15-1-8.
-//  Copyright (c) 2015年 DNE Technology Co.,Ltd. All rights reserved.
 //
 
 #ifndef JEUtilityKitDemo_JEUtilityKit_MACRO_h
@@ -46,14 +45,14 @@ CFAbsoluteTime startTime;
 #define D_START			startTime=CFAbsoluteTimeGetCurrent();
 #define D_END			DNSLog(@"[%s] %@ %f seconds", class_getName([self class]), NSStringFromSelector(_cmd), CFAbsoluteTimeGetCurrent() - startTime );
 #else
-#define DNSLog(...);	// NSLog(__VA_ARGS__);
-#define DNSLogMethod	// NSLog(@"[%s] %@", class_getName([self class]), NSStringFromSelector(_cmd) );
-#define DNSLogPoint(p)	// NSLog(@"%f,%f", p.x, p.y);
-#define DNSLogSize(p)	// NSLog(@"%f,%f", p.width, p.height);
-#define DNSLogRect(p)	// NSLog(@"%f,%f %f,%f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+#define DNSLog(...);
+#define DNSLogMethod
+#define DNSLogPoint(p)
+#define DNSLogSize(p)
+#define DNSLogRect(p)
 
-#define D_START			// CFAbsoluteTime startTime=CFAbsoluteTimeGetCurrent();
-#define D_END			// DNSLog(@"New %f seconds", CFAbsoluteTimeGetCurrent() - startTime );
+#define D_START
+#define D_END               
 #endif
 
 #define SAFE_FREE(p) { if(p) { free(p); (p)=NULL; } }

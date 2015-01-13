@@ -3,7 +3,6 @@
 //  JEUtilityKitDemo
 //
 //  Created by 尹现伟 on 15-1-7.
-//  Copyright (c) 2015年 DNE Technology Co.,Ltd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -87,5 +86,13 @@
  *
  *  @return 长度   example: 123发  return 5 ; 1234 return 4;
  */
--  (int)convertToInt;
+- (int)convertToInt;
+
+/**
+ *  string转date
+ *
+ *  @param format 时间格式化 如：M/d/yyyy h:m a
+ */
+- (NSDate *)dateFormat:(NSString *)format;
+
 @end

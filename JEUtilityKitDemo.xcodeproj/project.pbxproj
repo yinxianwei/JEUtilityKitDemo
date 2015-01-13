@@ -230,8 +230,9 @@
 		D0B4A6971A5D39A20096F7FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JE;
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "DNE Technology Co.,Ltd.";
+				ORGANIZATIONNAME = "http://blog.yinxianwei.cn";
 				TargetAttributes = {
 					D0B4A69E1A5D39A20096F7FF = {
 						CreatedOnToolsVersion = 6.1;
