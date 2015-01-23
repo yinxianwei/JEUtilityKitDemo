@@ -29,7 +29,7 @@
 }
 
 +(NSString *)fetchBundleVersion{
-    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
 
 -(CGSize)stringSizeWithFont:(UIFont *)font size:(CGSize)size breakmode:(NSLineBreakMode)model{
