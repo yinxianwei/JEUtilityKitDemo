@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84CB39F41AAD898D00391148 /* JEUtilityKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB39F31AAD898D00391148 /* JEUtilityKit.swift */; };
 		D04C187F1A5FC2F10076E1F4 /* UIView+UtilityKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D04C187E1A5FC2F10076E1F4 /* UIView+UtilityKit.m */; };
 		D0B1EAA41A5E280D00B24C59 /* NSArray+UtilityKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B1EA911A5E280D00B24C59 /* NSArray+UtilityKit.m */; };
 		D0B1EAA51A5E280D00B24C59 /* NSDate+UtilityKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B1EA931A5E280D00B24C59 /* NSDate+UtilityKit.m */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84CB39F31AAD898D00391148 /* JEUtilityKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JEUtilityKit.swift; sourceTree = "<group>"; };
 		D04C187D1A5FC2F10076E1F4 /* UIView+UtilityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UtilityKit.h"; sourceTree = "<group>"; };
 		D04C187E1A5FC2F10076E1F4 /* UIView+UtilityKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UtilityKit.m"; sourceTree = "<group>"; };
 		D0B1EA8E1A5E280D00B24C59 /* JEUtilityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEUtilityKit.h; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				D0B1EAA31A5E280D00B24C59 /* UIViewController+UtilityKit.m */,
 				D04C187D1A5FC2F10076E1F4 /* UIView+UtilityKit.h */,
 				D04C187E1A5FC2F10076E1F4 /* UIView+UtilityKit.m */,
+				84CB39F31AAD898D00391148 /* JEUtilityKit.swift */,
 			);
 			path = JEUtilityKit;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				D0B4A6A81A5D39A20096F7FF /* AppDelegate.m in Sources */,
 				D0B1EAA81A5E280D00B24C59 /* UIAlertView+UtilityKit.m in Sources */,
 				D0B1EAA91A5E280D00B24C59 /* UIColor+UtilityKit.m in Sources */,
+				84CB39F41AAD898D00391148 /* JEUtilityKit.swift in Sources */,
 				D0B1EAA41A5E280D00B24C59 /* NSArray+UtilityKit.m in Sources */,
 				D04C187F1A5FC2F10076E1F4 /* UIView+UtilityKit.m in Sources */,
 				D0B1EAAB1A5E280D00B24C59 /* UILabel+UtilityKit.m in Sources */,
@@ -345,7 +349,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "JEUtilityKitSwift/JEUtilityKitDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -361,7 +365,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "JEUtilityKitSwift/JEUtilityKitDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
