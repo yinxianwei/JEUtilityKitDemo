@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JEUtilityKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "Some commonly used methods"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.social_media_url   = "http://twitter.com/尹现伟"
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "6.0"
 
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yinxianwei/JEUtilityKitDemo.git", :tag => s.version.to_s }
 
 
-  s.source_files  = "JEUtilityKitSwift/*.swift"
+  s.source_files  = "JEUtilityKit/*"
   #s.exclude_files = "Classes/Exclude"
 
   # s.resource  = "icon.png"

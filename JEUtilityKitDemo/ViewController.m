@@ -7,7 +7,7 @@
 
 #import "ViewController.h"
 #import "JEUtilityKit.h"
-#import "JEUtilityKitDemo-Swift.h"
+
 @interface ViewController ()
 
 @end
