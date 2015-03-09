@@ -25,22 +25,11 @@
 		D0B4A6AE1A5D39A20096F7FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B4A6AC1A5D39A20096F7FF /* Main.storyboard */; };
 		D0B4A6B01A5D39A20096F7FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B4A6AF1A5D39A20096F7FF /* Images.xcassets */; };
 		D0B4A6B31A5D39A20096F7FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B4A6B11A5D39A20096F7FF /* LaunchScreen.xib */; };
-		D0B4A6BF1A5D39A20096F7FF /* JEUtilityKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B4A6BE1A5D39A20096F7FF /* JEUtilityKitDemoTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D0B4A6B91A5D39A20096F7FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0B4A6971A5D39A20096F7FF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0B4A69E1A5D39A20096F7FF;
-			remoteInfo = JEUtilityKitDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		848970BC1AAD81240004ADB6 /* JEUtilityKitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JEUtilityKitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		848970BD1AAD81250004ADB6 /* JEUtilityKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JEUtilityKit.swift; sourceTree = "<group>"; };
+		84C2ABDB1AAD867F00AD682B /* JEUtilityKitDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JEUtilityKitDemo-Bridging-Header.h"; path = "JEUtilityKitDemo/JEUtilityKitDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		D04C187D1A5FC2F10076E1F4 /* UIView+UtilityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UtilityKit.h"; sourceTree = "<group>"; };
 		D04C187E1A5FC2F10076E1F4 /* UIView+UtilityKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UtilityKit.m"; sourceTree = "<group>"; };
 		D0B1EA8E1A5E280D00B24C59 /* JEUtilityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEUtilityKit.h; sourceTree = "<group>"; };
@@ -75,20 +64,10 @@
 		D0B4A6AD1A5D39A20096F7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0B4A6AF1A5D39A20096F7FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0B4A6B21A5D39A20096F7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D0B4A6B81A5D39A20096F7FF /* JEUtilityKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JEUtilityKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0B4A6BD1A5D39A20096F7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0B4A6BE1A5D39A20096F7FF /* JEUtilityKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JEUtilityKitDemoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D0B4A69C1A5D39A20096F7FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0B4A6B51A5D39A20096F7FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -102,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				848970BD1AAD81250004ADB6 /* JEUtilityKit.swift */,
-				848970BC1AAD81240004ADB6 /* JEUtilityKitDemo-Bridging-Header.h */,
+				84C2ABDB1AAD867F00AD682B /* JEUtilityKitDemo-Bridging-Header.h */,
 			);
 			path = JEUtilityKitSwift;
 			sourceTree = "<group>";
@@ -144,7 +123,6 @@
 				848970BB1AAD80F90004ADB6 /* JEUtilityKitSwift */,
 				D0B1EA8D1A5E280D00B24C59 /* JEUtilityKit */,
 				D0B4A6A11A5D39A20096F7FF /* JEUtilityKitDemo */,
-				D0B4A6BB1A5D39A20096F7FF /* JEUtilityKitDemoTests */,
 				D0B4A6A01A5D39A20096F7FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				D0B4A69F1A5D39A20096F7FF /* JEUtilityKitDemo.app */,
-				D0B4A6B81A5D39A20096F7FF /* JEUtilityKitDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,23 +159,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D0B4A6BB1A5D39A20096F7FF /* JEUtilityKitDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				D0B4A6BE1A5D39A20096F7FF /* JEUtilityKitDemoTests.m */,
-				D0B4A6BC1A5D39A20096F7FF /* Supporting Files */,
-			);
-			path = JEUtilityKitDemoTests;
-			sourceTree = "<group>";
-		};
-		D0B4A6BC1A5D39A20096F7FF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D0B4A6BD1A5D39A20096F7FF /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,24 +179,6 @@
 			productReference = D0B4A69F1A5D39A20096F7FF /* JEUtilityKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D0B4A6B71A5D39A20096F7FF /* JEUtilityKitDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0B4A6C51A5D39A20096F7FF /* Build configuration list for PBXNativeTarget "JEUtilityKitDemoTests" */;
-			buildPhases = (
-				D0B4A6B41A5D39A20096F7FF /* Sources */,
-				D0B4A6B51A5D39A20096F7FF /* Frameworks */,
-				D0B4A6B61A5D39A20096F7FF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0B4A6BA1A5D39A20096F7FF /* PBXTargetDependency */,
-			);
-			name = JEUtilityKitDemoTests;
-			productName = JEUtilityKitDemoTests;
-			productReference = D0B4A6B81A5D39A20096F7FF /* JEUtilityKitDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -249,10 +191,6 @@
 				TargetAttributes = {
 					D0B4A69E1A5D39A20096F7FF = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					D0B4A6B71A5D39A20096F7FF = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = D0B4A69E1A5D39A20096F7FF;
 					};
 				};
 			};
@@ -270,7 +208,6 @@
 			projectRoot = "";
 			targets = (
 				D0B4A69E1A5D39A20096F7FF /* JEUtilityKitDemo */,
-				D0B4A6B71A5D39A20096F7FF /* JEUtilityKitDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,13 +220,6 @@
 				D0B4A6AE1A5D39A20096F7FF /* Main.storyboard in Resources */,
 				D0B4A6B31A5D39A20096F7FF /* LaunchScreen.xib in Resources */,
 				D0B4A6B01A5D39A20096F7FF /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0B4A6B61A5D39A20096F7FF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,23 +248,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0B4A6B41A5D39A20096F7FF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0B4A6BF1A5D39A20096F7FF /* JEUtilityKitDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D0B4A6BA1A5D39A20096F7FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0B4A69E1A5D39A20096F7FF /* JEUtilityKitDemo */;
-			targetProxy = D0B4A6B91A5D39A20096F7FF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D0B4A6AC1A5D39A20096F7FF /* Main.storyboard */ = {
@@ -465,40 +379,6 @@
 			};
 			name = Release;
 		};
-		D0B4A6C61A5D39A20096F7FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JEUtilityKitDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JEUtilityKitDemo.app/JEUtilityKitDemo";
-			};
-			name = Debug;
-		};
-		D0B4A6C71A5D39A20096F7FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JEUtilityKitDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JEUtilityKitDemo.app/JEUtilityKitDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,15 +396,6 @@
 			buildConfigurations = (
 				D0B4A6C31A5D39A20096F7FF /* Debug */,
 				D0B4A6C41A5D39A20096F7FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0B4A6C51A5D39A20096F7FF /* Build configuration list for PBXNativeTarget "JEUtilityKitDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0B4A6C61A5D39A20096F7FF /* Debug */,
-				D0B4A6C71A5D39A20096F7FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
