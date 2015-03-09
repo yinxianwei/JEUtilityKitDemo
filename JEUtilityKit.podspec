@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "JEUtilityKit"
-  s.version      = "0.0.1"
-  s.summary      = "Some commonly used methods"
+  s.version      = "0.0.2"
+  s.summary      = "一些常用的类别和宏定义。"
 
   s.description  = <<-DESC
-                       It is a marquee view used on iOS, which implement by Objective-C.
+                      添加Swift支持。
                        DESC
 
   s.homepage     = "https://github.com/yinxianwei/JEUtilityKitDemo"
