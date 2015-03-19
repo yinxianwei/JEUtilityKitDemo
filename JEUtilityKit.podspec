@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JEUtilityKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "Some commonly used methods"
 
   s.description  = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yinxianwei/JEUtilityKitDemo.git", :tag => s.version.to_s }
 
 
-  s.source_files  = "JEUtilityKit/*.swift"
+  s.source_files  = 'JEUtilityKit/*'
   #s.exclude_files = "Classes/Exclude"
 
   # s.resource  = "icon.png"
